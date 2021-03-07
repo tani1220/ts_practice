@@ -1,3 +1,3 @@
 # ts_practice
 
-##typescriptを勉強する。
+## typescriptを勉強する。
