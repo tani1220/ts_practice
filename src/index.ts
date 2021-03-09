@@ -1,5 +1,6 @@
-import World from './world';
+import { notExistSumple, primitiveSumple, anySumple, unknownSumple } from './basic';
 
-const root: HTMLElement | null = document.getElementById('root');
-const world = new World('Hello World!!!');
-world.sayHello(root);
+primitiveSumple();
+notExistSumple();
+anySumple();
+unknownSumple();
