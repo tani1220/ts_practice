@@ -8,6 +8,8 @@ import {
   logMessage4,
 } from './function/basic';
 import { buy, isUserSignUp, isUserSignUp2 } from './function/parameters';
+import allPeople from './object/objects';
+import aliasSumple from './object/alias';
 
 primitiveSumple();
 notExistSumple();
@@ -30,3 +32,6 @@ isUserSignUp2('Foo');
 
 const price = buy(100, 200, 300, 400, 600);
 console.log(price);
+
+allPeople()
+aliasSumple()
