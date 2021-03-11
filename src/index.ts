@@ -10,6 +10,8 @@ import {
 import { buy, isUserSignUp, isUserSignUp2 } from './function/parameters';
 import allPeople from './object/objects';
 import aliasSumple from './object/alias';
+import arraySumple from './array/array';
+import tupleSumple from './array/tuple';
 
 primitiveSumple();
 notExistSumple();
@@ -33,5 +35,8 @@ isUserSignUp2('Foo');
 const price = buy(100, 200, 300, 400, 600);
 console.log(price);
 
-allPeople()
-aliasSumple()
+allPeople();
+aliasSumple();
+
+arraySumple();
+tupleSumple();
